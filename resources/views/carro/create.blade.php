@@ -3,7 +3,7 @@
 @section('template_title')
     Create Carro
 @endsection
-/** Entrada de un vehiculo*/
+
 
 
 @section('content')
@@ -15,7 +15,7 @@
 
                 <div class="card card-default">
                     <div class="card-header">
-                        <span class="card-title">Create Carro</span>
+                        <span class="card-title">Ingresa cliente Carro</span>
                     </div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('carros.store') }}"  role="form" enctype="multipart/form-data">
